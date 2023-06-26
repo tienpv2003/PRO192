@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author PhạmVinhTiến
- */
 public class Book {
+
     public String title;
     public int price;
 
@@ -16,7 +8,7 @@ public class Book {
     }
 
     public Book(String title, int price) {
-        this.title = title;
+        this.title = title.toUpperCase();
         this.price = price;
     }
 
@@ -31,6 +23,5 @@ public class Book {
     public void setPrice(int price) {
         this.price = price;
     }
-    
-}
 
+}

@@ -13,7 +13,7 @@ public class Car {
     private int price;
 
     public Car() {
-        // Default constructor
+        
     }
 
     public Car(String maker, int price) {
@@ -35,6 +35,6 @@ public class Car {
 
     @Override
     public String toString() {
-        return maker + ", " + price;
+        return " " +maker + ", " + price;
     }
 }
